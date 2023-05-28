@@ -1,0 +1,26 @@
+.footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .social-links {
+    margin-top: 10px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #555;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color: #0077B5; /* LinkedIn blue color */
+  }
+  

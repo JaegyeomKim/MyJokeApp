@@ -1,0 +1,141 @@
+.projects-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .project {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .project-date {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .project-description {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .project-tech-stack {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .project-link {
+    display: inline-block;
+    margin-bottom: 10px;
+    background-color: #0077B5;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-link:hover {
+    background-color: #005d91;
+  }
+  
+  .project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  /* Additional Color Styles */
+  .project:nth-child(odd) {
+    background-color: #F8F8F8;
+  }
+  
+  .project-title {
+    color: #333;
+  }
+  
+  .project-date {
+    color: #555;
+  }
+  
+  .project-description {
+    color: #777;
+  }
+  
+  .project-tech-stack {
+    color: #777;
+  }
+  
+  .project-link {
+    background-color: #E91E63;
+  }
+  
+  .project-link:hover {
+    background-color: #C2185B;
+  }
+  
+  /* Fancy CSS */
+  .project:before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #E91E63;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .project:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #E91E63;
+    z-index: 1;
+  }
+  .image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .project-image {
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+  }

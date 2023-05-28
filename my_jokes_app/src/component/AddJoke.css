@@ -1,0 +1,38 @@
+.add-joke-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .add-joke-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-joke-button:hover {
+    background-color: #45a049; /* Darker green */
+  }
+  .joke-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .joke-form input,
+  .joke-form textarea {
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .joke-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  

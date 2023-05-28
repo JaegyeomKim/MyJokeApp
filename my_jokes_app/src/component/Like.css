@@ -1,0 +1,31 @@
+.like-button {
+  font-size: 16px; /* Adjust the font size as per your preference */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.like-button:hover {
+  transform: scale(1.1);
+  color: red;
+}
+
+.like-button.liked {
+  transform: scale(1.2);
+}
+
+.like-count {
+  margin-left: 5px;
+  transition: font-size 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.like-count.liked {
+  font-size: 20px; /* Adjust the font size as per your preference */
+}

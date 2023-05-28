@@ -1,0 +1,12 @@
+.joke-title {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #787171;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.app-container {
+  background-color: #222; /* Replace with your desired background color */
+}

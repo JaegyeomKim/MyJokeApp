@@ -1,0 +1,228 @@
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #222;
+  }
+  
+  .card {
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+  }
+  
+  .card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .card.flipped .card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .card-front,
+  .card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10;
+    transform-style: preserve-3d;
+    overflow: hidden;
+  }
+  
+  .card-front {
+    background-color: #A9A9A9;
+    cursor: pointer;
+    transform: translateZ(1px);
+  }
+  
+  .card-back {
+    background-color: #fff;
+    transform: translateZ(1px) rotateY(180deg);
+  }
+  
+  .card-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+    word-wrap: break-word;
+  }
+  
+  .card-content h3 {
+    margin: 0;
+    color: #222;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+    white-space: normal;
+  }
+  
+  .card-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .copy-button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    background-color: #e8e8e8;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .copy-button.copied {
+    background-color: #b2e89e;
+  }
+  
+  .social-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin-left: 2px;
+    color: #6495ED; /* Cool color */
+    font-size: 16px; /* Smaller font size */
+    
+.card {
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.card.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  transform-style: preserve-3d;
+  overflow: hidden;
+}
+
+.card-front {
+  background-color: #A9A9A9;
+  cursor: pointer;
+  transform: translateZ(1px);
+}
+
+.card-back {
+  background-color: #fff;
+  transform: translateZ(1px) rotateY(180deg);
+}
+
+.card-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card-content h3 {
+  margin: 0;
+  color: #222;
+}
+
+.card-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.copy-button {
+  padding: 8px 16px;
+  background-color: #e8e8e8;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.copy-button.copied {
+  background-color: #b2e89e;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-left: 5px;
+  color: #FF69B4; /* Hot Pink */
+  font-size: 16px; /* Smaller font size */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #FF1493; /* Deep Pink on hover */
+}
+
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color: #2d4373;
+  }
